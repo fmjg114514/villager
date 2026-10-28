@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        // fabric-loom 1.19-SNAPSHOT 只在 Fabric 官方仓库（含 snapshot）里，必须放第一位
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+        maven { name = 'TencentMirror'; url = 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'VillagerTitanFabric'
